@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#062e3f" />
+  <meta name="description" content="A dynamic and aesthetic To-Do List WebApp by Manas Prabhu." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+    crossorigin="anonymous"
+  />
+
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="main.css" />
+  <title>JUST DO IT – Manas Prabhu</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="flexrow-container">
+      <div class="standard-theme theme-selector"></div>
+      <div class="light-theme theme-selector"></div>
+      <div class="darker-theme theme-selector"></div>
+    </div>
+    <h1 id="title">Just do it.<span class="blink-cursor">|</span></h1>
+    <p class="tagline">Crafted with passion by <strong>Manas Prabhu</strong></p>
+  </header>
+
+  <!-- Input Form -->
+  <section id="form">
+    <form>
+      <input class="todo-input" type="text" placeholder="What’s on your mind?" />
+      <button class="todo-btn" type="submit"><i class="fas fa-plus"></i> Add</button>
+    </form>
+  </section>
+
+  <!-- Date & Time -->
+  <div class="datetime">
+    <i class="far fa-clock"></i> <span id="datetime"></span>
+  </div>
+
+  <!-- To-Do List -->
+  <main id="todo-section">
+    <ul class="todo-list"></ul>
+  </main>
+
+  <!-- Filters -->
+  <div class="filter-container">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="completed">Completed</button>
+    <button class="filter-btn" data-filter="uncompleted">Uncompleted</button>
+  </div>
+
+  <!-- Stats & Toast -->
+  <div class="task-counter">
+    <span id="total-tasks">Total: 0</span> | <span id="completed-tasks">Completed: 0</span>
+  </div>
+  <div id="toast" class="toast">Task added!</div>
+
+  <!-- JS -->
+  <script src="time.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
