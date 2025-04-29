@@ -1,69 +1,56 @@
-To-Do List Web App
+To-Do List Web App (Crafted with passion by Manas Prabhu)
+DESCRIPTION
+A simple, dynamic web-based To-Do list application built with HTML, CSS and JavaScript. Add, remove or mark tasks as completed while enjoying a clean, responsive design and three customizable themes (Standard, Light and Darker).
 
-A simple and dynamic To-Do List Web App built with HTML, CSS, and JavaScript. The app allows users to add, remove, and mark tasks as completed. The design is clean, responsive, and supports theme switching for a personalized experience.
+FEATURES
+• Add Tasks — Quickly add new to-do items
+• Delete Tasks — Remove items when they’re done
+• Mark Completed — Click the check icon to strike through
+• Theme Switching — Toggle between three beautiful themes
+• Live Date & Time— Always see the current date and time
+• Responsive UI — Works flawlessly on desktop & mobile
 
-Features
-• Add Tasks: Easily add tasks to the to-do list.
-• Delete Tasks: Remove tasks from the list when done.
-• Mark Tasks as Completed: Strikethrough completed tasks for easy tracking.
-• Theme Switching: Switch between three themes (Standard, Light, Darker).
-• Date & Time: Current date and time displayed dynamically.
-• Responsive Design: Works on both desktop and mobile devices.
+TECHNOLOGIES
+• HTML — Semantic structure
+• CSS — Smooth animations, neumorphic cards
+• JavaScript — Dynamic task management & localStorage
+• localStorage— Persist tasks across browser sessions
 
-Technologies Used
-• HTML – Structure of the app
-• CSS – Styling and theming
-• JavaScript – Task logic, local storage management
-• Local Storage – Saves tasks between page reloads
-
-Screenshots
-(Place any screenshots you’d like to include in an assets folder and reference here.)
-
-Demo
-Live demo: https://manasprabhu.github.io/To-Do-List/
-
-How to Use
-Clone the repository:
+USAGE
+Clone the repo:
 git clone https://github.com/manasprabhu/To-Do-List.git
 cd To-Do-List
 
-Open locally:
+Open the app:
+• Double-click index.html
+• Or serve with Live Server in VS Code
 
-Double-click index.html to open in your browser
+Add a task:
+Type into the input field and press “Add”
 
-Or use a local HTTP server (for example, Live Server in VS Code)
+Mark as complete:
+Click the ✔️ icon beside a task
 
-Adding Tasks:
-Type a task into the input field and click “Add.”
+Delete a task:
+Click the 🗑️ icon beside a task
 
-Mark as Completed:
-Click the check icon next to the task.
+Switch themes:
+Click one of the colored circles at the top
 
-Delete Tasks:
-Click the trash icon to remove the task.
+LIVE DEMO
+https://manasprabhu.github.io/To-Do-List/
 
-Switch Themes:
-Click the colored circles at the top to change the theme.
+CONTRIBUTING
+Fork the repository
 
-Installation
-Clone this repository:
-git clone https://github.com/manasprabhu/To-Do-List.git
+Create a feature branch:
+git checkout -b feature-branch
 
-Change directory:
-cd To-Do-List
+Make your changes & commit:
+git commit -m "Add awesome feature"
 
-Open index.html in your browser.
+Push & open a Pull Request
 
-Contributing
-Fork the repository.
-
-Create a new branch: git checkout -b feature-branch
-
-Make your changes and commit: git commit -am "Add new feature"
-
-Push to the branch: git push origin feature-branch
-
-Open a pull request.
-
-License
-This project is licensed under the MIT License. Refer to the LICENSE file for details.
+LICENSE
+MIT License
+See the LICENSE file for full details.
