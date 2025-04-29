@@ -1,15 +1,13 @@
-==================================================
-                     To-Do List Web App
-                Crafted with passion by Manas Prabhu
-==================================================
+# To-Do List Web App
+Crafted with passion by Manas Prabhu
 
-DESCRIPTION
+## DESCRIPTION
 -----------
 A clean, responsive web-based To-Do list application built with
 HTML, CSS, and JavaScript. Add, remove, or mark tasks as completed
 while choosing from three custom themes (Standard, Light, Darker).
 
-FEATURES
+## FEATURES
 --------
  • Add Tasks        — Quickly create new to-do items  
  • Delete Tasks     — Remove items once completed  
@@ -18,14 +16,14 @@ FEATURES
  • Live Date & Time — Always see the current date and time  
  • Responsive UI    — Optimized for desktop and mobile  
 
-TECHNOLOGIES
+## TECHNOLOGIES
 ------------
  • HTML         — Semantic markup  
  • CSS          — Smooth transitions & neumorphic design  
  • JavaScript   — Dynamic task handling & localStorage  
  • LocalStorage — Persist tasks between sessions  
 
-USAGE
+## USAGE
 -----
 1. Clone the repository:  
      git clone https://github.com/manasprabhu/To-Do-List.git  
@@ -47,11 +45,11 @@ USAGE
 6. Switch themes:  
    Click one of the colored circles in the header
 
-LIVE DEMO
+## LIVE DEMO
 ---------
 https://manasprabhu.github.io/To-Do-List/
 
-CONTRIBUTING
+## CONTRIBUTING
 ------------
 1. Fork the repository  
 2. Create a branch:  
@@ -60,6 +58,6 @@ CONTRIBUTING
      git commit -m "Describe your feature"  
 4. Push and open a Pull Request  
 
-LICENSE
+## LICENSE
 -------
 This project is licensed under the MIT License. See the LICENSE file for details.
